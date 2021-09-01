@@ -1,0 +1,39 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@vue/compiler-sfc": "^3.1.5",
+        "axios": "^0.21.1",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    },
+    "dependencies": {
+        "@meforma/vue-toaster": "^1.2.2",
+        "alga-css": "^1.0.0-development4",
+        "alga-js": "0.0.1-beta7",
+        "bs-stepper": "^1.7.0",
+        "datatables.net-dt": "^1.1.0",
+        "date-fns": "^2.23.0",
+        "feather-icons": "^4.28.0",
+        "jquery": "^3.6.0",
+        "js-cookie": "^3.0.0",
+        "lightvue": "^0.4.6",
+        "sweetalert2": "^11.1.2",
+        "vue": "^3.1.5",
+        "vue-feather": "^2.0.0-rc",
+        "vue-loader": "^16.4.1",
+        "vue-router": "^4.0.10",
+        "vue3-table-lite": "^1.0.6",
+        "vuex": "^4.0.2",
+        "watch": "^1.0.2"
+    }
+}
